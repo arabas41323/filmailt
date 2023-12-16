@@ -3,6 +3,9 @@
   "version": "2.1.0",
   "description": "Hello World add-on for stremio",
   "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "test": "node test/*",
     "start": "node server.js"
